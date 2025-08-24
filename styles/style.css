@@ -118,7 +118,7 @@
   list-style-type: none;
   gap: 40px;
   padding: 0;
-  margin: 68px auto auto;
+  margin: 68px auto 0;
 }
 
 .card {
