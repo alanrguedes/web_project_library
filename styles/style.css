@@ -18,6 +18,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
@@ -40,6 +44,10 @@
   color: #000000;
   text-decoration: none;
   font-weight: bold;
+}
+
+.nav__link:hover {
+  color: gray;
 }
 
 .header__content {
@@ -385,6 +393,10 @@
   display: flex;
   align-items: center;
   column-gap: 10px;
+}
+
+.footer__column-link:hover {
+  color: blue;
 }
 
 .footer__social-icon {
